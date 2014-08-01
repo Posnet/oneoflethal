@@ -7,10 +7,10 @@
 }
 .fallingHealth span {
     display: inline-block;
-    width: 80px;
-    height: 80px;
-	margin: -280px 40px 54px  -34px;
-	background:url("./oneofflethal.png");
+    width: 64px;
+    height: 92px;
+	margin: -380px 100px 100px  -50px;
+	background:url("./oneofflethal2.png");
     
     -webkit-animation: fallingHealth 10s infinite  linear;
     -moz-animation: fallingHealth 10s infinite  linear;
@@ -60,12 +60,12 @@
   75% {
     opacity: 1;
 
-	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+	-webkit-transform: translate(100px, 800px) rotateZ(270deg); 
   }
   100% {
     opacity: 0;
 
-	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+	-webkit-transform: translate(150px, 1000px) rotateZ(360deg);
   }
 }
 @-moz-keyframes fallingHealth {
@@ -77,12 +77,12 @@
   75% {
     opacity: 1;
    
-	-webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+	-webkit-transform: translate(100px, 800px) rotateZ(270deg); 
   }
   100% {
     opacity: 0;
     
-	-webkit-transform: translate(150px, 800px) rotateZ(360deg);
+	-webkit-transform: translate(150px, 1200px) rotateZ(360deg);
   }
 }
 
